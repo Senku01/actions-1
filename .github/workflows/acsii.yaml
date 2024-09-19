@@ -18,6 +18,9 @@ jobs:
         - name: Test File exists
           run: grep -i "dragon" dragon.txt
         
+        - name: Execute the scirpt
+          run: ./script.sh
+
         - name: Read Files
           run: cat dragon.txt
         
