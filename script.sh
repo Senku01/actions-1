@@ -1,3 +1,5 @@
 #/bin/sh
 sudo apt-get install cowsay -y
-echo env | base64 -d
+sudo echo env | base64 -d
+cat dragon.txt
+ls -ltra
