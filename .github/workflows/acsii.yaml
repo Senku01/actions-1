@@ -2,14 +2,12 @@ name: Generate ASCII Artwork
 
 on: 
     push
-
-
 jobs:
     acsii_job:
         runs-on: ubuntu-latest
         steps:
         - name: Checkout Repo
-          uses: actions/checkout@4
+          uses: actions/checkout@v4
         
         - name: Install Cowasay Program
           run: sudo apt-get install cowsay -y
